@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.afhs.srinath.scienceyellowstoneinformation.History"
+    android:background="#e2e2e2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Yellowstone Started almost 11,000 years ago.The land was formed from a cataclysmic eruption that occurred 640,000 years ago. This eruption was 1,000 times bigger than that of Mount St. Helens. This created a caldera 72 by 45 kilometers in area and 1 kilometer deep. After the big eruption there were a series of smaller eruptions that caused the rivers in the park today."
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yellowstoneeruption"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5" />
+</RelativeLayout>
